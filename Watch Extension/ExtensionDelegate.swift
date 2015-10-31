@@ -4,7 +4,7 @@
 //
 //  Created by Main Account on 10/1/15.
 //  Copyright © 2015 Mic Pringle. All rights reserved.
-//
+//  http://www.raywenderlich.com/117329/watchos-2-tutorial-part-4-watch-connectivity
 
 import WatchKit
 
