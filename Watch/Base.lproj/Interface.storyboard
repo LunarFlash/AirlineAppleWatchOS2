@@ -68,7 +68,9 @@
                                 <tableRow identifier="FlightRow" id="NWa-e3-MK5">
                                     <group key="rootItem" width="1" height="0.0" alignment="left" spacing="6" id="PeX-j3-gOp">
                                         <items>
-                                            <separator alignment="left" id="Tzd-dL-Ksd"/>
+                                            <separator height="1" heightAdjustment="-4" alignment="left" verticalAlignment="center" id="Tzd-dL-Ksd">
+                                                <color key="color" red="0.98039215690000003" green="0.066666666669999999" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                            </separator>
                                         </items>
                                     </group>
                                 </tableRow>
