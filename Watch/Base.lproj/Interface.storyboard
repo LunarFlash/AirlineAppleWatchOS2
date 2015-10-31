@@ -66,7 +66,11 @@
                         <table alignment="left" id="5MF-gw-S4H">
                             <items>
                                 <tableRow identifier="FlightRow" id="NWa-e3-MK5">
-                                    <group key="rootItem" width="1" alignment="left" id="PeX-j3-gOp"/>
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" spacing="6" id="PeX-j3-gOp">
+                                        <items>
+                                            <separator alignment="left" id="Tzd-dL-Ksd"/>
+                                        </items>
+                                    </group>
                                 </tableRow>
                             </items>
                         </table>
