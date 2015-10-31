@@ -71,6 +71,23 @@
                                             <separator height="1" heightAdjustment="-4" alignment="left" verticalAlignment="center" id="Tzd-dL-Ksd">
                                                 <color key="color" red="0.98039215690000003" green="0.066666666669999999" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
                                             </separator>
+                                            <group alignment="left" layout="vertical" spacing="0.0" id="wBQ-kP-haB">
+                                                <items>
+                                                    <group width="1" height="32" alignment="left" spacing="4" id="uIo-XB-JR3">
+                                                        <items>
+                                                            <label alignment="left" verticalAlignment="center" text="MAN" id="eXo-Am-gjr">
+                                                                <fontDescription key="font" type="system" weight="semibold" pointSize="20"/>
+                                                            </label>
+                                                            <imageView width="24" height="20" alignment="left" verticalAlignment="center" image="Plane" id="ICu-o5-PDP">
+                                                                <color key="tintColor" red="0.98039215690000003" green="0.066666666669999999" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                            </imageView>
+                                                            <label alignment="left" verticalAlignment="center" text="SFO" id="0Bg-GW-OMH">
+                                                                <fontDescription key="font" type="system" weight="semibold" pointSize="20"/>
+                                                            </label>
+                                                        </items>
+                                                    </group>
+                                                </items>
+                                            </group>
                                         </items>
                                     </group>
                                 </tableRow>
