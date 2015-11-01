@@ -46,7 +46,7 @@ class FlightInterfaceController: WKInterfaceController {
   
   override func awakeWithContext(context: AnyObject?) {
     super.awakeWithContext(context)
-    flight = Flight.allFlights().first!
+    if let flight = context as? Flight { self.flight = flight }
   }
   
 }
