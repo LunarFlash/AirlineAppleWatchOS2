@@ -26,6 +26,13 @@ class ScheduleInterfaceController: WKInterfaceController {
         
         // Configure interface objects here.
         flightsTable.setNumberOfRows(flights.count, withRowType: "FlightRow")
+        
+        for index in 0..<flightsTable.numberOfRows {
+            if let controller = flightsTable.rowControllerAtIndex(index) as? FlightRowController {
+                controller.flight = flights[index]
+            }
+        }
+        
     }
 
     override func willActivate() {
