@@ -61,7 +61,7 @@
         <!--Air Ber-->
         <scene sceneID="shx-CX-JuS">
             <objects>
-                <controller identifier="Schedule" title="Air Ber" id="RnF-Vn-HYw">
+                <controller identifier="Schedule" title="Air Ber" id="RnF-Vn-HYw" customClass="ScheduleInterfaceController" customModule="Watch_Extension">
                     <items>
                         <table alignment="left" id="5MF-gw-S4H">
                             <items>
@@ -106,6 +106,9 @@
                             </items>
                         </table>
                     </items>
+                    <connections>
+                        <outlet property="flightsTable" destination="5MF-gw-S4H" id="Pfh-jn-oy0"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="266" y="465"/>

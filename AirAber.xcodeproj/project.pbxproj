@@ -25,6 +25,7 @@
 		7B8FA2801B724A9900B1E765 /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8FA27F1B724A9900B1E765 /* Flight.swift */; };
 		7B8FA28C1B72893300B1E765 /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8FA2891B72893300B1E765 /* QRCode.swift */; };
 		7B8FA28D1B72893300B1E765 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8FA28A1B72893300B1E765 /* UIImageViewExtension.swift */; };
+		9CF810CB1BE58F2A0037351C /* ScheduleInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF810CA1BE58F2A0037351C /* ScheduleInterfaceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +91,7 @@
 		7B8FA27F1B724A9900B1E765 /* Flight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flight.swift; sourceTree = "<group>"; };
 		7B8FA2891B72893300B1E765 /* QRCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCode.swift; sourceTree = "<group>"; };
 		7B8FA28A1B72893300B1E765 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		9CF810CA1BE58F2A0037351C /* ScheduleInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleInterfaceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 				355C6E631BBD9B8400FD244B /* Assets.xcassets */,
 				355C6E651BBD9B8400FD244B /* Info.plist */,
 				355C6E721BBDA3CE00FD244B /* FlightInterfaceController.swift */,
+				9CF810CA1BE58F2A0037351C /* ScheduleInterfaceController.swift */,
 			);
 			path = "Watch Extension";
 			sourceTree = "<group>";
@@ -328,6 +331,7 @@
 			files = (
 				355C6E621BBD9B8400FD244B /* ExtensionDelegate.swift in Sources */,
 				355C6E731BBDA3CE00FD244B /* FlightInterfaceController.swift in Sources */,
+				9CF810CB1BE58F2A0037351C /* ScheduleInterfaceController.swift in Sources */,
 				355C6E711BBD9DAB00FD244B /* Flight.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
