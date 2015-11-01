@@ -121,6 +121,33 @@
             </objects>
             <point key="canvasLocation" x="266" y="465"/>
         </scene>
+        <!--CheckIn-->
+        <scene sceneID="1UH-Y7-SdI">
+            <objects>
+                <controller identifier="CheckIn" id="cKr-Pf-BIM">
+                    <items>
+                        <group width="1" height="1" alignment="center" contentMode="center" layout="vertical" id="421-ja-Srh">
+                            <items>
+                                <group height="30" alignment="center" spacing="4" id="uAX-yF-2UB">
+                                    <items>
+                                        <label alignment="left" verticalAlignment="center" text="MAN" id="fZD-1C-kmR">
+                                            <fontDescription key="font" type="system" weight="semibold" pointSize="20"/>
+                                        </label>
+                                        <imageView width="24" height="20" alignment="left" verticalAlignment="center" image="Plane" id="u4i-EA-qz1">
+                                            <color key="tintColor" red="0.98039215690000003" green="0.066666666669999999" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        </imageView>
+                                        <label alignment="left" verticalAlignment="center" text="SFO" id="lEl-Oa-vIj">
+                                            <fontDescription key="font" type="system" weight="semibold" pointSize="20"/>
+                                        </label>
+                                    </items>
+                                </group>
+                            </items>
+                        </group>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="428" y="584"/>
+        </scene>
     </scenes>
     <color key="tintColor" red="0.98039215686274506" green="0.066666666666666666" blue="0.30980392156862746" alpha="1" colorSpace="calibratedRGB"/>
 </document>
