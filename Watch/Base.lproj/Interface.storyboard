@@ -141,12 +141,22 @@
                                         </label>
                                     </items>
                                 </group>
+                                <button alignment="center" verticalAlignment="center" id="CDX-lQ-ih0">
+                                    <group key="contentGroup" width="78" height="78" alignment="left" radius="39" id="wL8-e1-l2a">
+                                        <items>
+                                            <label alignment="center" verticalAlignment="center" text="Check In" id="tpg-hg-nKq">
+                                                <fontDescription key="font" type="system" weight="semibold" pointSize="16"/>
+                                            </label>
+                                        </items>
+                                        <color key="backgroundColor" red="0.98039215690000003" green="0.066666666669999999" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                    </group>
+                                </button>
                             </items>
                         </group>
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="428" y="584"/>
+            <point key="canvasLocation" x="437" y="510"/>
         </scene>
     </scenes>
     <color key="tintColor" red="0.98039215686274506" green="0.066666666666666666" blue="0.30980392156862746" alpha="1" colorSpace="calibratedRGB"/>
