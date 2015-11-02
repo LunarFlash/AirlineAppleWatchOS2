@@ -36,8 +36,10 @@ class ScheduleInterfaceController: WKInterfaceController {
     }
     
     override func table(table: WKInterfaceTable, didSelectRowAtIndex rowIndex: Int) {
+        // retrieve the appropriate flight from flights using rowIndex, create an array containing the identifiers of the two interface controllers you want to present, and then present them, passing flight as the context to both.
         let flight = flights[rowIndex]
-        presentControllerWithName("Flight", context: flight)
+        let controllers = ["Flight", "CheckIn"]
+        presentControllerWithNames(controllers, contexts:[flight, flight])
     }
     
     

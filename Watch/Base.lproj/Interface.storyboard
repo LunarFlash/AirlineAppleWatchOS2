@@ -124,7 +124,7 @@
         <!--CheckIn-->
         <scene sceneID="1UH-Y7-SdI">
             <objects>
-                <controller identifier="CheckIn" id="cKr-Pf-BIM">
+                <controller identifier="CheckIn" id="cKr-Pf-BIM" customClass="CheckInInterfaceController" customModule="Watch_Extension">
                     <items>
                         <group width="1" height="1" alignment="center" contentMode="center" layout="vertical" id="421-ja-Srh">
                             <items>
@@ -150,13 +150,21 @@
                                         </items>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.066666666669999999" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
                                     </group>
+                                    <connections>
+                                        <action selector="checkInButtonTapped" destination="cKr-Pf-BIM" id="lBq-wI-560"/>
+                                    </connections>
                                 </button>
                             </items>
                         </group>
                     </items>
+                    <connections>
+                        <outlet property="backgroundGroup" destination="421-ja-Srh" id="D6n-R3-inb"/>
+                        <outlet property="destinationLabel" destination="lEl-Oa-vIj" id="uGe-Nf-BC4"/>
+                        <outlet property="originLabel" destination="fZD-1C-kmR" id="NAG-xs-WSI"/>
+                    </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="437" y="510"/>
+            <point key="canvasLocation" x="485" y="465"/>
         </scene>
     </scenes>
     <color key="tintColor" red="0.98039215686274506" green="0.066666666666666666" blue="0.30980392156862746" alpha="1" colorSpace="calibratedRGB"/>
