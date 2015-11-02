@@ -25,6 +25,7 @@
 		7B8FA2801B724A9900B1E765 /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8FA27F1B724A9900B1E765 /* Flight.swift */; };
 		7B8FA28C1B72893300B1E765 /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8FA2891B72893300B1E765 /* QRCode.swift */; };
 		7B8FA28D1B72893300B1E765 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8FA28A1B72893300B1E765 /* UIImageViewExtension.swift */; };
+		9C1E46CB1BE7043900112355 /* BoardingPassInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1E46CA1BE7043900112355 /* BoardingPassInterfaceController.swift */; };
 		9CF810CB1BE58F2A0037351C /* ScheduleInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF810CA1BE58F2A0037351C /* ScheduleInterfaceController.swift */; };
 		9CF810CD1BE594F50037351C /* FlightRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF810CC1BE594F50037351C /* FlightRowController.swift */; };
 		9CF810CF1BE6EB570037351C /* CheckInInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF810CE1BE6EB570037351C /* CheckInInterfaceController.swift */; };
@@ -93,6 +94,7 @@
 		7B8FA27F1B724A9900B1E765 /* Flight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flight.swift; sourceTree = "<group>"; };
 		7B8FA2891B72893300B1E765 /* QRCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCode.swift; sourceTree = "<group>"; };
 		7B8FA28A1B72893300B1E765 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		9C1E46CA1BE7043900112355 /* BoardingPassInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardingPassInterfaceController.swift; sourceTree = "<group>"; };
 		9CF810CA1BE58F2A0037351C /* ScheduleInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleInterfaceController.swift; sourceTree = "<group>"; };
 		9CF810CC1BE594F50037351C /* FlightRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightRowController.swift; sourceTree = "<group>"; };
 		9CF810CE1BE6EB570037351C /* CheckInInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckInInterfaceController.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				9CF810CA1BE58F2A0037351C /* ScheduleInterfaceController.swift */,
 				9CF810CC1BE594F50037351C /* FlightRowController.swift */,
 				9CF810CE1BE6EB570037351C /* CheckInInterfaceController.swift */,
+				9C1E46CA1BE7043900112355 /* BoardingPassInterfaceController.swift */,
 			);
 			path = "Watch Extension";
 			sourceTree = "<group>";
@@ -341,6 +344,7 @@
 				9CF810CB1BE58F2A0037351C /* ScheduleInterfaceController.swift in Sources */,
 				9CF810CD1BE594F50037351C /* FlightRowController.swift in Sources */,
 				355C6E711BBD9DAB00FD244B /* Flight.swift in Sources */,
+				9C1E46CB1BE7043900112355 /* BoardingPassInterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

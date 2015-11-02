@@ -166,6 +166,36 @@
             </objects>
             <point key="canvasLocation" x="485" y="465"/>
         </scene>
+        <!--BoardingPass-->
+        <scene sceneID="hDe-E9-Hbh">
+            <objects>
+                <controller identifier="BoardingPass" id="ENk-4X-Cbw" customClass="BoardingPassInterfaceController" customModule="Watch_Extension">
+                    <items>
+                        <group height="30" alignment="center" spacing="4" id="qSu-Xn-BCi">
+                            <items>
+                                <label alignment="left" verticalAlignment="center" text="MAN" id="dx1-nm-Ynh">
+                                    <fontDescription key="font" type="system" weight="semibold" pointSize="20"/>
+                                </label>
+                                <imageView width="24" height="20" alignment="left" verticalAlignment="center" image="Plane" id="fqT-Mt-CPr">
+                                    <color key="tintColor" red="0.98039215690000003" green="0.066666666669999999" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </imageView>
+                                <label alignment="left" verticalAlignment="center" text="SFO" id="Ayp-gD-hrQ">
+                                    <fontDescription key="font" type="system" weight="semibold" pointSize="20"/>
+                                </label>
+                            </items>
+                        </group>
+                        <imageView width="66" height="66" alignment="center" verticalAlignment="center" image="Activity" animationDuration="1" id="ms3-CA-ebb"/>
+                    </items>
+                    <edgeInsets key="margins" left="1" right="1" top="6" bottom="0.0"/>
+                    <connections>
+                        <outlet property="boardingPassImage" destination="ms3-CA-ebb" id="2BN-bZ-3jt"/>
+                        <outlet property="destinationLabel" destination="Ayp-gD-hrQ" id="ErC-Cb-SCh"/>
+                        <outlet property="originLabel" destination="dx1-nm-Ynh" id="9KM-MG-mil"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="500" y="688"/>
+        </scene>
     </scenes>
     <color key="tintColor" red="0.98039215686274506" green="0.066666666666666666" blue="0.30980392156862746" alpha="1" colorSpace="calibratedRGB"/>
 </document>
